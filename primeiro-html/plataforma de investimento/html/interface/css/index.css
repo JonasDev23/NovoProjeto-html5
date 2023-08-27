@@ -1,8 +1,34 @@
 body {
     background-color: rgb(12, 88, 88);
+    border: 10px solid rgba(223, 165, 8, 0.651);
+    border-radius: 50px;
 }
 h1 {
     font-size: 50px ;
     color: rgb(243, 142, 10);
     box-shadow: ;
+}
+nav#menu li {
+    display: inline-block;
+    padding: 7px;
+    border-radius: 7px;
+    margin: 3px;
+    transition: 0.5s;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav#menu a {
+    color: rgba(184, 167, 11, 0.966);
+    text-decoration: none;
+}
+
+nav#menu li:hover {
+    background-color: rgba(48, 6, 14, 0.836);
+}
+nav#menu a:hover {
+    color: cornflowerblue;
 }
