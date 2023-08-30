@@ -32,7 +32,9 @@ nav#menu li:hover {
 nav#menu a:hover {
     color: cornflowerblue;
 }
-div#imagem {
-    display: inline-block;
-    border-radius: 20px;
+div#imagem img {
+    display: block;
+    border-radius: 250px;
+    border: 1px;
+    
 }
