@@ -106,9 +106,16 @@ h1,h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
+.main-conteudo h1 a {
+    color: darkred;
+ }
 .main-conteudo p {
     margin-bottom: 20px;
 }
-.main-conteudo h1,h2 {
-   color: ;
+
+.main-conteudo p a {
+    color:  #959595;
+}
+.main-conteudo h1 a:hover, .main-conteudo p a:hover {
+    text-decoration: underline;
 }
