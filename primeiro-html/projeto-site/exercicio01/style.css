@@ -22,13 +22,15 @@ a:hover {
 ul {
     list-style: none;
 }
+h1,h2 {
+    color: darkred;
+}
 
 /*Geral
 ---------------------------------------------*/
 .row {
     width: 100%;
     float: left;
-    margin-bottom: 50px;
 }
 .content {
     width: 1024px;
@@ -40,20 +42,16 @@ ul {
 .header {
     padding: 10px 0;
 }
-
 .header-logo {
     float: left;
 }
-
 .header-logo h1 a {
     color: #959595;
 }
-
-.header-logo h1 a span.HTML{
+.header-logo h1 a span.html {
     color: #016fba;
 }
-
-.header-logo h1 a span.CSS{
+.header-logo h1 a span.css {
     color: #e54d26;
 }
 
@@ -61,11 +59,56 @@ ul {
     float: right;
     padding: 9px 0;
 }
-
 .header-menu ul li {
     display: inline-block;
     margin-left: 20px;
 }
+
+/*bem-vindo
+---------------------------------------------*/
+
+.bem-vindo {
+    background-color: #ff6969;
+    padding: 20px 0;
+    text-align: center;
     
+}
     
-    
+.bem-vindo .content {
+    width: 630px;
+}   
+.bem-vindo .content h1 {
+    color: #fff;
+}   
+
+/*main
+---------------------------------------------*/
+.main {
+    padding: 30px 0;
+}
+.main-menu {
+    float: left;
+    width: 160px;
+    font-size: 18px;
+}
+.main-menu h1 {
+    font-size: 18px;
+}
+.main-menu ul li {
+    margin-top: 20px;
+}
+.main-conteudo {
+    float: right;
+    width: 1000px;
+    margin-top: -255px;
+}
+.main-conteudo h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main-conteudo p {
+    margin-bottom: 20px;
+}
+.main-conteudo h1,h2 {
+   color: ;
+}
