@@ -1,9 +1,7 @@
 /* Reset 
 ---------------------------------*/
-* {
-    margin: 0;
-    padding: 0;
-}
+* {margin: 0;padding: 0;}
+
 body {font-size: 'Lato', sem serifa; color: #fff; background: #2c3e50;}
 a { color: #fff; text-decoration: none;}
 a:hover{ color: #579add;}
@@ -11,14 +9,9 @@ ul{list-style: none;}
 
 /* Geral
 ---------------------------------*/
-.row {
-    width: 100%;
-    float: left;
-}
-.content {
-    width: 960px;
-    margin: 0 auto;
-}
+.row {width: 100%;float: left;}
+.content {width: 960px;margin: 0 auto;}
+
 /* Header
 ---------------------------------*/
 .header{padding: 30px 0;}
