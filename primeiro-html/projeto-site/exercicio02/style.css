@@ -29,6 +29,7 @@ ul{list-style: none;}
 /* destaque
 ---------------------------------*/
 .destaque{font-size: 26px;text-align: center;margin: 10px 0 50px 0;}
+.destaque .content{width: 800px;}
 .destaque h1 {font-size: 50px;font-weight: normal;color: #579add; margin-bottom: 10px;}
 .destaque p {margin-bottom: 20px;}
 .destaque p a{font-size: 18px; border: 1px solid #fff; padding: 10px 20px; border-radius: 10px;}
