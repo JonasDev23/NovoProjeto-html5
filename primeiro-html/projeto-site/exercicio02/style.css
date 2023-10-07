@@ -6,6 +6,7 @@ body {font-size: 'Lato', sem serifa; color: #fff; background: #2c3e50;}
 a { color: #fff; text-decoration: none;}
 a:hover{ color: #579add;}
 ul{list-style: none;}
+img{max-width: 100%;}
 
 /* Geral
 ---------------------------------*/
@@ -33,3 +34,20 @@ ul{list-style: none;}
 .destaque h1 {font-size: 50px;font-weight: normal;color: #579add; margin-bottom: 10px;}
 .destaque p {margin-bottom: 20px;}
 .destaque p a{font-size: 18px; border: 1px solid #fff; padding: 10px 20px; border-radius: 10px;}
+
+/* tecnologias
+---------------------------------*/
+.tecnologia {background: #fff; padding: 40px 0;}
+.tecnologia-title {color: #579add; font-size: 22px; border-bottom: 4px solid #ccc; padding-bottom: 10px; margin-bottom: 15px;}
+.tecnologia-title span {border-bottom: 4px solid #579add; padding-bottom: 11px;}
+
+.tecnologia-col {float: left; width: 30.66%; margin-right: 4%;}
+.tecnologia-col:last-child{margin-right: 0;}
+.tecnologia-col:hover .cover img{transform: scale(1.2);}
+
+.tecnologia-col .cover{width: 184px;}
+.tecnologia-col .cover img{transition: all .5s ease;}
+
+.tecnologia-col h2 {color: #333; font-size: 18px; margin: 10px 0;}
+.tecnologia-col a {color: #999;}
+.tecnologia-col a:hover {color: #579add;}
