@@ -1,12 +1,13 @@
 /* Reset 
 ---------------------------------*/
-* {margin: 0;padding: 0;}
+* {margin: 0;padding: 0;box-sizing: border-box;}
 
 body {font-size: 'Lato', sem serifa; color: #fff; background: #2c3e50;}
 a { color: #fff; text-decoration: none;}
 a:hover{ color: #579add;}
 ul{list-style: none;}
 img{max-width: 100%;}
+input, textarea{border: 2p solid #fff; border-radius: 5px; background: #eee; font-size: 'Lato', sem serifa; font-size: 18px; padding:    15px 5px;}
 
 /* Geral
 ---------------------------------*/
@@ -48,3 +49,17 @@ img{max-width: 100%;}
 .tecnologia-col h2 {color: #333; font-size: 18px; margin: 10px 0;}
 .tecnologia-col a {color: #999;}
 .tecnologia-col a:hover {color: #579add;}
+
+/* CONTATO
+---------------------------------*/
+.contato {padding: 100px 0; background: #5e81a3;}
+.contato h1 {text-align: center; margin-bottom: 20px;}
+
+.contato-col {width: 48%; float: left;}
+.contato-col:nth-child(2) {float: right;}
+
+.contato-col label{width:100%; float: left; margin-bottom: 15px;}
+.contato-col label span{float: left; font-size: 18px;font-weight: 700;margin-bottom: 5px;}
+.contato-col label input,
+.contato-col label textarea{float: left; width: 100%;}
+.contato-col label textarea{height: 154px;}
